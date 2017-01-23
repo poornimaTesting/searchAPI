@@ -1,0 +1,26 @@
+Test Scenario
+
+For the given URL and search key values, create test cases to get the response code and JSON output with validations.
+URL :https://itunes.apple.com/search?term=
+Parameter1 = jackjohnson
+Parameter2 = country=CA
+Parameter3 = limit=10
+ 
+ 
+Positive Scenario
+TestCase 1
+Create a testcase with Parameter1 . Concat the parameter with the URL and get the response code 
+and JSON output
+
+TestCase 2
+Create a testcase with Parameter1 and Parameter2. Concat the parameters with the URL and get the
+response code and JSON output
+
+TestCase 3
+Create a testcase with Parameter1,Parameter2 and Parameter3 . Concat the parameters with the URL 
+and get the response code and JSON output
+
+Negative Scenario
+TestCase 4
+Create a testcase with invalid Parameter . Concat the parameter with the URL and get the response code 
+View   

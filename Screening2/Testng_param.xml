@@ -1,0 +1,16 @@
+
+Testng_param.xml
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "itunes"  parallel = "false">
+    <parameter name= "fname" value ="jackjohnson">  </parameter>
+    <parameter name = "country" value ="country=CA"></parameter>
+    <parameter name = "limit" value ="limit=10"></parameter>
+    <test name = "itunesSearch" >
+        
+        <classes>
+            <class name = "apple.ItunesSearch"></class>
+        </classes>
+    </test>
+</suite>
